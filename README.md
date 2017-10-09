@@ -1,0 +1,6 @@
+# Pi-E.131-to-I2C
+Use a Raspberry Pi as a simple AC lighting controller
+
+In the holiday lighting community, it is common to use software such as xLights (https://xlights.org/) to control lighting displays. Typically, this is done by a master device (Windows PC, Mac, or Rasperry Pi) relaying info over a local network (wired or wireless) via the E.131 protocol(https://www.doityourselfchristmas.com/wiki/index.php?title=E1.31_(Streaming-ACN)_Protocol) to one or more "controller" devices which then act on that info in order to control lights or other devices via various protocols (WS2811 for pixel lighting, DMX for AC lights or other devices, etc.)
+
+This project is a very simple one; it simply uses a Pi to listen for E.131 data (DMX data packaged into UDP data packets), and relay that on to the Pi's I2C bus. In order for that to be useful, the Pi will need to be configured for I2C output and then you can connect that output to some simple electronics (port expander chips such as this: https://www.adafruit.com/product/732) and use the output of those to control solid-state relays like this one (https://www.amazon.com/SainSmart-8-Channel-Duemilanove-MEGA2560-MEGA1280/dp/B006J4G45G) in order to control 120VAC lights or other devices.
