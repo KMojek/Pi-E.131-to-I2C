@@ -11,5 +11,6 @@ Currently, it is assumed that your Pi is running on a static IP address and cont
   * For Halloween I use the first eight channels for a HolidayCoro pumpkin (http://www.holidaycoro.com/Singing-Pumpkin-p/17.htm (.xmodel for this available at https://drive.google.com/drive/folders/0B2ozCEidtWh3RWtXUFFmM1djSEk) and then eight for single-string circle elements for the mini-pumpkins (http://www.holidaycoro.com/Singing-Pumpkin-Bunch-p/18.htm) The remaining 16 channels just go unused as models.
   * For Christmas, 8 channels each get used for HolidayCoro singing trees (http://www.holidaycoro.com/Singing-Christmas-Trees-p/100.htm) and all 32 outputs are used.
 
-Video of Pi running Halloween pumpkins: https://vimeo.com/240424336
-Video of Pi running Christmas singing trees: https://vimeo.com/246043246
+Videos:
+* Pi running Halloween pumpkins: https://vimeo.com/240424336
+* Pi running Christmas singing trees: https://vimeo.com/246043246
